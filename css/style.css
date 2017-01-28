@@ -1,0 +1,42 @@
+/* 
+
+Project Name: Grosse kiffade en Thaïlande
+Client: Biloulafolle
+Author: Kaouthar Biloula |  
+Developed @ One Month in NYC 
+
+*/
+
+body {
+	background: url('../images/BiloulaBangkok.jpeg');
+	/* the follow is the code to have the image display as a full page */
+	background-position: center;
+	background-attachment: fixed;
+	-webkit-background-size: cover; /* the next 3 lines are "browser prefixes", they are necessary to include for CSS3 techniques */
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}
+#container {
+	background: #8F0000;
+	width: 350px;
+	color: white;
+	padding: 50px;
+}
+
+h1{
+	font-size: 50px;
+	font-family: 'Overpass Mono', monospace;
+}
+
+h2{
+	background: #F9F8F7;
+	color: blue;
+	padding: 12px;
+	border-radius: 15px;
+	font-family: 'Overpass Mono', monospace;
+}
+a {
+	color: #75c1f6;
+	text-decoration: none;
+}
